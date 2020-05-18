@@ -1,0 +1,186 @@
+body {
+	margin: auto 0;
+	font-family: sans-serif;
+
+}
+
+hr {
+	border: 1px solid rgb(25,185,100);
+	margin: 5px 0px 5px 0;
+}
+img {
+	width: 100%;
+}
+p {
+	margin: 0;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+
+}
+
+.jornal {
+	width: 100%;
+	max-width: 500px;
+	border: 2px solid rgb(25,185,100);
+	padding: 15px;
+	background-color: white;
+	margin: 20px;
+}
+
+.titulo {
+	border-bottom: 0px solid rgb(25,185,100);
+	color: rgb(25,185,100);
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 90%;
+	text-transform: uppercase;
+
+
+}
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+
+
+}
+.logo {
+	display: flex;
+	align-items: center;
+	margin: 3px 0 3px 0;
+
+
+}
+.bloco {
+	border: 1px solid rgb(25,185,100);
+	background-color: rgb(225,255,225);
+}
+
+.bloco:hover {
+	background-color: rgb(25,185,100);
+}
+.corpo {
+	display: grid;
+	grid-template-columns: 1.5fr 2fr;
+	grid-gap: 5px;
+	padding-bottom: 10px;
+}
+.forminha {
+	padding-top: 2px;
+	align-self: end;
+	
+	
+}
+
+.texto {
+	color: rgb(50,50,50);
+	font-family: 'roboto', sans-serif;
+	font-size: 15px;
+
+}
+
+.assine {
+	color: rgb(25,185,100);
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 110%;
+	font-size: 30px;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: left;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+
+}
+
+.formulario {
+	}
+
+
+.arealouca {
+	margin-right: 10px;
+}
+
+
+a {
+	color: rgb(25,185,100);
+}
+a:hover {
+	text-decoration: none;
+	cursor: cell;
+}
+
+input {
+	border: 1px solid rgb(25,185,100);
+}
+.email {
+	padding: 5px;
+	font-size: 15px;
+	color: rgb(25,185,100);
+	text-align: left;
+	width: 100%;
+	font-weight: 600;
+	background-color: rgb(225,255,225)
+}
+
+.email:focus {
+	background-color: rgb(225,255,225);
+	border: 2px solid rgb(25,185,100);
+	outline: none;
+}
+.clear {
+	width: 50%;
+
+}
+
+.button {
+	border: 2px solid rgb(25,185,100);
+	background-color: white;
+	box-shadow: 3px 3px rgb(25,185,100);
+	padding: 5px 5px 5px 5px;
+	font-size: 15px;
+	margin-top: 5px;
+
+	width: 100%;
+	color: rgb(25,185,100);
+	font-weight: 900;
+}
+
+.button:hover {
+	background-color: rgb(225,255,225);
+	cursor: cell;
+	
+}
+
+.rodape {
+	font-family: 'roboto', sans-serif;
+	text-align: right;
+	font-size: 15px;
+	padding: 10px 0 0 0;
+}
+
+
+@media only screen and (max-width: 500px){
+		.jornal{
+			margin: 5px;
+		}
+
+}
+
